@@ -1,0 +1,23 @@
+<html>
+<body>
+    <h1>Judul Web Page</h1>
+    <p >Ini Paragraph</p>
+    <p id="p2"></p>
+
+    <!-- //4.menampilkan data menggunakan window.alert -->
+    <p><button type="button" onclick="window.alert('ini pesan')">Tampilkan Pesan</button></p>
+    
+    <script>
+        //1.menampilkan data menggunakan innerHTML
+        document.getElementById('p2').innerHTML="Ini adalah isi paragraph 1."
+        
+        //2.menampilkan data menggunakan "document.write"
+        document.write("<p>Ini isi paragraph 2.</p>");
+        
+        //3.menampilkan data menggunakan variabel dan "document.write"
+        a = 'Ini isi paragraph 3';
+        document.write(a);
+        
+    </script>
+</body>
+</html>
