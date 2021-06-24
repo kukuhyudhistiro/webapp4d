@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Const</h2>
+<p>Deklarasi Constant Object</p>
+<p id="tipe"></p>
+<p id="model"></p>
+<p id="warna"></p>
+
+<script>
+	// You can create a const object:
+	const mobil = {type:"Toyota", model:"Avanza", warna:"white"};
+
+	// Kita dapat mengganti obyek const:
+	mobil.warna = "red";
+
+	// Kita dapat menambahkan properti obyek:
+	mobil.pemilik = "Joko"; 
+
+	document.getElementById("tipe").innerHTML = "Tipe = " + mobil.type;
+	document.getElementById("model").innerHTML = "Model = " + mobil.model;
+	document.getElementById("warna").innerHTML = "Warna = " + mobil.warna;
+		
+</script>
+
+</body>
+</html>

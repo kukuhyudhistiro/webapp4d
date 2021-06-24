@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Const</h2>
+<p>Deklarasi Array const</p>
+<p id="demo"></p>
+
+<script>
+	// Deklarasi awal menu sebagai constant array:
+	const menu = ["pecel", "rawon", "pangsit"];
+
+	//Element pertama (indeks ke 0) pada menu diganti:
+	menu[0] = "bakso";
+
+	// Menambahkan item ke menu
+	menu.push("rujak");
+
+		document.getElementById("demo").innerHTML =
+		"Isi Menu = " + menu;
+		
+</script>
+
+</body>
+</html>
