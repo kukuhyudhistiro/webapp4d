@@ -1,0 +1,38 @@
+<html>
+<body>
+    <h2>OPERATOR</h2>
+    <p>Operator Pangkat</p>
+    <p id="data1"></p>
+    <p id="data2"></p>
+    <p id="op1"></p>
+    <p id="op2"></p>
+    <p id="op3"></p>
+    <p>Mengambil value dari index array: </p>
+    <p id="arr1"></p>
+
+    <script>
+        var a = 4;
+        var b = 2;
+        document.getElementById("data1").innerHTML = 
+            "> Value a = " + a;
+            document.getElementById("data2").innerHTML = 
+            "> Value b = " + b;
+
+        //PANGKAT
+        var r_exp = a**b;
+        document.getElementById("op1").innerHTML = 
+            ">> Operator Pangkat = " + a + "**" + b + " = " + r_exp;
+
+        //increment kelipatan b
+        a+=b
+        //var r_inc = a++;
+        document.getElementById("op1").innerHTML = 
+            ">> Operator Inc a+b = " + a;
+
+        
+        var z = [3, 8, 'f', 1, 5, 2];
+        document.getElementById("arr1").innerHTML =  z[2];
+    </script>
+
+</body>
+</html> 

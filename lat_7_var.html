@@ -1,0 +1,35 @@
+<html>
+<body>
+    <h2>Deklarasi Variabel</h2>
+    <p>Mendeklarasikan variabel a,b,c</p>
+
+    <p id="dataa"></p>
+    <p id="datab"></p>
+    <p id="datac"></p>
+    <p id="dataresult"></p>
+
+    <!-- bagian script js -->
+    <script>
+        //assign value for a,b
+        var a = 10;    
+
+        var a = 5
+
+        var b = 7;
+        var c = a + b;
+        
+
+
+        //Tampilkan c
+        document.getElementById("dataa").innerHTML = 
+            ">> Nilai a = " + a;
+        document.getElementById("datab").innerHTML = 
+        ">> Nilai b = " + b;
+        document.getElementById("datac").innerHTML = 
+        ">> Nilai c = " + a + " + " + b;
+
+        document.getElementById("dataresult").innerHTML = 
+        ">> Jadi  c = " + c;        
+    </script>
+</body>
+</html>
